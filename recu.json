@@ -1,0 +1,34 @@
+{
+    "numero_recu": "REC-20250825-001",
+    "date_paiement": "2025-08-25",
+    "entreprise": {
+        "nom": "Ma Boutique en Ligne",
+        "adresse": "123 Rue de l\u00e2\u20ac\u2122Exemple"
+    },
+    "client": {
+        "nom": "Jean Dupont",
+        "email": "jean.dupont@email.com "
+    },
+    "articles": [
+        {
+            "description": "Chaise de bureau",
+            "quantite": 1,
+            "prix_unitaire_ht": 150.0,
+            "taux_tva": 0.2,
+            "prix_total_ttc": 180.0
+        },
+        {
+            "description": "Clavier sans fil",
+            "quantite": 1,
+            "prix_unitaire_ht": 40.0,
+            "taux_tva": 0.2,
+            "prix_total_ttc": 48.0
+        }
+    ],
+    "mode_paiement": {
+        "type": "Carte de Cr\u00c3\u00a9dit"
+    },
+    "montant_total_ht": 190.0,
+    "montant_tva": 0.4,
+    "montant_total_ttc": 228.0
+}
